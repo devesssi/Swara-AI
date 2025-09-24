@@ -1,0 +1,4 @@
+| Model                   | Accuracy | Macro F1 | Pros                                                               | Cons                                              | Production Suitability                                                  |
+| ----------------------- | -------- | -------- | ------------------------------------------------------------------ | ------------------------------------------------- | ----------------------------------------------------------------------- |
+| Logistic Regression     | 0.94     | 0.94     | Lightweight, fast, interpretable, easy to deploy                   | Limited understanding of context and nuanced text | ✅ Good for prototypes or small datasets                                 |
+| DistilBERT (Fine-tuned) | 0.96+    | 0.95+    | Captures context, handles complex sentences, better generalization | Slower, larger model, requires more resources     | ✅ Preferred for production due to better performance on real-world text |
